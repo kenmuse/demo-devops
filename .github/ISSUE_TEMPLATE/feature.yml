@@ -4,11 +4,8 @@ title: "[SEC] <title>"
 labels: [Consideration]
 body:
 - type: markdown
-  value: "## Proposing a Feature"
-- type: markdown
   attributes:
-    value: |
-      Thanks for taking the time to fill request a feature!
+    value: "## Proposing a Feature"
 - type: checkboxes
   attributes:
     label: Is there an existing request for this?
