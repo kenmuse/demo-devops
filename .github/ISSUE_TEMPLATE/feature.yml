@@ -11,7 +11,7 @@ body:
     label: Is there an existing request for this?
     description: Please search to see if the feature is requested
     options:
-    - label: I have searched the existing issues
+    - label: I have searched for this feature and don't see a similar request
       required: true
 - type: textarea
   attributes:
