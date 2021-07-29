@@ -1,0 +1,36 @@
+name: 😱 New Feature Request
+description: File a special bug/issue
+title: "[SEC] <title>"
+labels: [Consideration]
+body:
+- type: markdown
+  value: "## Proposing a Feature"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill request a feature!
+- type: checkboxes
+  attributes:
+    label: Is there an existing request for this?
+    description: Please search to see if the feature is requested
+    options:
+    - label: I have searched the existing issues
+      required: true
+- type: textarea
+  attributes:
+    label: Requested Behavior
+    description: A concise description of what you're experiencing.
+    render: markdown
+  validations:
+    required: true
+- type: dropdown
+  id: userType
+  attributes:
+    label: What type of user will benefit most from this change?
+    options:
+      - Developer
+      - Administrator
+      - End-User
+      - Data Analyst
+  validations:
+    required: false
